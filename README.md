@@ -18,7 +18,8 @@ GUI for Ease of Use:
 
 Browse and select files.
 Initiate the deletion process with a button click.
-How It Works
+
+### Usage:
 Select the file using the "Browse" button.
 Click "Purge" to securely delete the file.
 The file will be encrypted, overwritten, split into chunks, and finally deleted.
@@ -27,10 +28,10 @@ The file will be encrypted, overwritten, split into chunks, and finally deleted.
 Python 3.x
 
 ## Dependencies:
-  cryptography
-  tkinter
-  unicodedata
-  random
+  - cryptography
+  - tkinter
+  - unicodedata
+  - random
 
 ## Execution:
 
