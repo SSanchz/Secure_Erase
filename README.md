@@ -27,10 +27,10 @@ The file will be encrypted, overwritten, split into chunks, and finally deleted.
 Python 3.x
 
 ## Dependencies:
-cryptography
-tkinter
-unicodedata
-random
+  cryptography
+  tkinter
+  unicodedata
+  random
 
 ## Execution:
 
