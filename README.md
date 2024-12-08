@@ -1,8 +1,8 @@
 
-###General File Deletion (HDDs)
+# General File Deletion (HDDs)
 This version is designed for traditional hard drives (HDDs) and employs a combination of encryption, overwriting, chunking, and file deletion to make files unrecoverable.
 
-##Features
+## Features
 Encryption:
 
 Files are encrypted using the cryptography.fernet library before and after overwriting.
@@ -23,16 +23,16 @@ Select the file using the "Browse" button.
 Click "Purge" to securely delete the file.
 The file will be encrypted, overwritten, split into chunks, and finally deleted.
 
-##Requirements
+## Requirements
 Python 3.x
 
-##Dependencies:
+## Dependencies:
 cryptography
 tkinter
 unicodedata
 random
 
-##Execution:
+## Execution:
 
 ```bash
 python data_manager.py
